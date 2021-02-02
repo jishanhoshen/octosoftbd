@@ -1,0 +1,196 @@
+:root {
+  --primary-color-regular: #211022;
+  --primary-color-medium: #2e1d30;
+  --primary-color-light: #4e404f;
+  --white: #fff;
+  --black: #000;
+  --light-transparent: #ffffff80;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+.security-area {
+  background-color: var(--white);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.security-area .security-box {
+  background-color: var(--white);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px 20px;
+  -webkit-box-shadow: 0px 0px 2px #565656;
+          box-shadow: 0px 0px 2px #565656;
+  border-radius: 10px;
+}
+
+.security-area .security-box .c-logo {
+  text-align: center;
+}
+
+.security-area .security-box .action-title h2 {
+  text-align: center;
+  margin: 15px;
+}
+
+.security-area .security-box .action-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.security-area .security-box .action-form form input {
+  margin: 8px auto;
+  border: 0;
+  background-color: var(--white);
+  -webkit-box-shadow: 0px 0px 2px #565656;
+          box-shadow: 0px 0px 2px #565656;
+  border-radius: 20px;
+  padding: 8px 15px;
+  width: 250px;
+}
+
+.security-area .security-box .action-form form input::-webkit-input-placeholder {
+  text-transform: capitalize;
+}
+
+.security-area .security-box .action-form form input:-ms-input-placeholder {
+  text-transform: capitalize;
+}
+
+.security-area .security-box .action-form form input::-ms-input-placeholder {
+  text-transform: capitalize;
+}
+
+.security-area .security-box .action-form form input::placeholder {
+  text-transform: capitalize;
+}
+
+.security-area .security-box .action-form form input:focus-visible {
+  outline-offset: 0px;
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+.security-area .security-box .action-form form input[type="submit"] {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8px 30px;
+}
+
+.dashboard .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.dashboard .container .nav {
+  height: 100vh;
+  width: 200px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-right: 2px solid #ddd;
+}
+
+.dashboard .container .nav .menutop {
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard .container .nav .menutop .menubtn i {
+  font-size: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.dashboard .container .nav .menutop .logo img {
+  width: 100%;
+}
+
+.dashboard .container .nav .menu .single-menu {
+  padding: 10px 20px;
+  color: var(--black);
+  cursor: pointer;
+}
+
+.dashboard .container .nav .menu .single-menu:hover {
+  background-color: #ddd;
+}
+
+.dashboard .container .content-area {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+}
+
+.dashboard .container .content-area .content {
+  display: none;
+}
+
+.dashboard .container .content-area .content.active {
+  display: block;
+}
+/*# sourceMappingURL=admin.app.css.map */
